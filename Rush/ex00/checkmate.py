@@ -3,9 +3,6 @@ def checkmate(board):
         return
     list_board = board.splitlines()
     # print(list_board)
-    if len(list_board) > 8:
-        # print("Error: Board is too big (Max 8x8)")
-        return
     grid_board = []
     for line in list_board:
         grid_board.append(list(line)) # เปลี่ยน "R..." เป็น ['R', '.', '.', '.']
