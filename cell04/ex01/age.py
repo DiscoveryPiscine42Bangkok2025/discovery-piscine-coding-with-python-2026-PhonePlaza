@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 str = input("Please tell me your age: ")
 age = int(str)
 print(f"You are currently {age} years old.")
