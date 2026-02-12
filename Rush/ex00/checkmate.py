@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def checkmate(board):
     if not isinstance(board, str):
         return
