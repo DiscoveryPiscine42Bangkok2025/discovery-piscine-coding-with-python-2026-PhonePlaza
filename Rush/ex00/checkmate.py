@@ -3,7 +3,7 @@ def checkmate(board):
     if not isinstance(board, str):
         return
     list_board = board.splitlines()
-    # print(list_board)
+    print(list_board)
     grid_board = []
     for line in list_board:
         grid_board.append(list(line)) # เปลี่ยน "R..." เป็น ['R', '.', '.', '.']
